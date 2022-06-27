@@ -49,6 +49,9 @@
     background-color: lawngreen;
     visibility: hidden;
 }
+#plus {
+    background-color: grey;
+}
 
 @media all and (min-width: 768px) {
     #plus .my_img {
@@ -71,9 +74,18 @@
     background-color: lawngreen;
     visibility: hidden;
 }
+#Now {
+    background-color: blue;
+}
 
 @media all and (min-width: 768px) {
     #Now .my_img {
         visibility: visible;
     }
+}
+
+/*sezione social*/
+#social .my_img {
+    background-color: darksalmon;
+    height: 150px;
 }
