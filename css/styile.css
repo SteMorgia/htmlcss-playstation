@@ -55,3 +55,25 @@
         visibility: visible;
     }
 }
+
+/*sezione sconti*/
+.debug #sconti .my_text {
+    height: 50px;
+    background-color: deeppink;
+    
+}
+.debug #sconti .my_img {
+    background-color: darksalmon;
+    height: 150px;
+}
+/*sezione Now*/
+#Now .my_img {
+    background-color: lawngreen;
+    visibility: hidden;
+}
+
+@media all and (min-width: 768px) {
+    #Now .my_img {
+        visibility: visible;
+    }
+}
