@@ -1,0 +1,21 @@
+/*regole header*/
+.debug .sony {
+    background-color: chocolate;
+}
+
+/*sezione jumbotron*/
+.debug .my_container {
+    background-color: aqua;
+    height: 600px;
+    width: 100%;
+}
+.debug .jumbo_info {
+    background-color: blue;
+    height: 40%;
+}
+
+/*sezione PS5*/
+.debug .my_card {
+    background-color: brown;
+    height: 50px;
+}
