@@ -15,7 +15,15 @@
 }
 
 /*sezione PS5*/
-.debug .my_card {
+.debug #PS5 .my_card {
     background-color: brown;
     height: 50px;
+}
+.debug #PS5 .my_text {
+    background-color: darkgoldenrod;
+    height: 150px;
+}
+.debug #PS5 .my_img {
+    background-color: darksalmon;
+    height: 150px;
 }
