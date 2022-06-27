@@ -43,3 +43,15 @@
     background-color: deeppink;
     
 }
+
+/*sezione Plus*/
+#plus .my_img {
+    background-color: lawngreen;
+    visibility: hidden;
+}
+
+@media all and (min-width: 768px) {
+    #plus .my_img {
+        visibility: visible;
+    }
+}
