@@ -33,5 +33,13 @@
 
 /*sezione news*/
 #news {
-    margin-top: 50px;
+    padding: 50px 0px;
+    background-color: black;
+}
+
+/*sezione PS4*/
+.debug #PS4 .my_text {
+    height: 50px;
+    background-color: deeppink;
+    
 }
