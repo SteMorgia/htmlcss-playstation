@@ -1,6 +1,9 @@
 /*regole header*/
-.debug .sony {
-    background-color: chocolate;
+header .sony {
+    background-color: black;
+}
+header .sonylogo {
+    max-width: 70px;
 }
 
 /*sezione jumbotron*/
