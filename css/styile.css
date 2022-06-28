@@ -6,16 +6,19 @@ header .sonylogo {
     max-width: 70px;
 }
 
+main {
+    margin-top: 98px;
+}
+
 /*sezione jumbotron*/
-.debug .my_container {
-    background-color: aqua;
+#jumbotron .my_container {
+    background-image:url(../img/jumbo-bg.png);
     height: 600px;
     width: 100%;
+    background-size: cover;
+    background-position: center;
 }
-.debug .jumbo_info {
-    background-color: blue;
-    height: 40%;
-}
+
 
 /*sezione PS5*/
 .debug #PS5 .my_card {
