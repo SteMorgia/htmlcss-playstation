@@ -39,49 +39,45 @@ main {
 }
 
 /*sezione PS4*/
-.debug #PS4 .my_text {
-    height: 50px;
-    background-color: deeppink;
-    
-}
+
 
 /*sezione Plus*/
 #plus .my_img {
-    background-color: lawngreen;
-    visibility: hidden;
+    display: none;
 }
 #plus {
-    background-color: grey;
+    background-color: rgb(185, 185, 185);
+}
+#plus .card {
+    background-color: rgb(185, 185, 185); 
+}
+#plus .btn {
+    color: var(--primary-color);
 }
 
 @media all and (min-width: 768px) {
     #plus .my_img {
-        visibility: visible;
+        display: block;
     }
 }
 
 /*sezione sconti*/
-.debug #sconti .my_text {
-    height: 50px;
-    background-color: deeppink;
-    
-}
-.debug #sconti .my_img {
-    background-color: darksalmon;
-    height: 150px;
-}
+
+
 /*sezione Now*/
 #Now .my_img {
-    background-color: lawngreen;
-    visibility: hidden;
+    display: none;
 }
 #Now {
-    background-color: blue;
+    background-color: rgb(0, 0, 36);
+}
+#Now .card {
+    background-color: rgb(0, 0, 36);
 }
 
 @media all and (min-width: 768px) {
     #Now .my_img {
-        visibility: visible;
+        display: block;
     }
 }
 
