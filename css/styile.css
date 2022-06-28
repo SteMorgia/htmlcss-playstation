@@ -14,28 +14,23 @@ main {
 #jumbotron .my_container {
     background-image:url(../img/jumbo-bg.png);
     height: 600px;
-    width: 100%;
     background-size: cover;
     background-position: center;
 }
 
 
 /*sezione PS5*/
-.debug #PS5 .my_card {
-    background-color: brown;
-    height: 50px;
-}
-.debug #PS5 .my_text {
-    background-color: darkgoldenrod;
-    height: 150px;
-}
-.debug #PS5 .my_img {
-    background-color: darksalmon;
-    height: 150px;
-}
+
+
+
 
 /*sezione takestwo*/
-
+#takestwo .my_container {
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
 
 /*sezione news*/
 #news {
