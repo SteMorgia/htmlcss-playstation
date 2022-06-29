@@ -36,8 +36,10 @@ main {
 
 /*sezione takestwo*/
 #takestwo .my_container {
-    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
     height: 600px;
+}
+#takestwo {
+    background-image:url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -92,3 +94,12 @@ main {
 }
 
 /*sezione social*/
+
+
+/*footer*/
+footer {
+    background-color: blue;
+}
+footer ul {
+    list-style-type: none;
+}
