@@ -12,8 +12,10 @@ main {
 
 /*sezione jumbotron*/
 #jumbotron .my_container {
-    background-image:url(../img/jumbo-bg.png);
     height: 600px;
+}
+#jumbotron {
+    background-image:url(../img/jumbo-bg.png);
     background-size: cover;
     background-position: center;
 }
@@ -21,7 +23,15 @@ main {
 
 /*sezione PS5*/
 
-
+#PS5 .my_card {
+    opacity: 0.6;
+}
+#PS5 .active {
+    opacity: 1;
+}
+#PS5 .my_card:hover {
+    opacity: 1;
+}
 
 
 /*sezione takestwo*/
