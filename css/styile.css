@@ -50,9 +50,6 @@ main {
     background-color: black;
 }
 
-/*sezione PS4*/
-
-
 /*sezione Plus*/
 #plus .my_img {
     display: none;
@@ -73,8 +70,6 @@ main {
     }
 }
 
-/*sezione sconti*/
-
 
 /*sezione Now*/
 #Now .my_img {
@@ -93,12 +88,10 @@ main {
     }
 }
 
-/*sezione social*/
-
 
 /*footer*/
 footer {
-    background-color: blue;
+    background-color: rgb(22, 22, 165);
 }
 footer ul {
     list-style-type: none;
